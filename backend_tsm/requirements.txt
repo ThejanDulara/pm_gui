@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+SQLAlchemy
+PyMySQL
+python-dotenv
+gunicorn

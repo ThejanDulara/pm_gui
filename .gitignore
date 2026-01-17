@@ -1,0 +1,95 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / Flask
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Flask instance / cache
+instance/
+.flaskenv
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / React build
+dist/
+build/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# OS / Backup
+# =========================
+*.bak
+*.old
+*.orig
+
+# =========================
+# Railway / Vercel
+# =========================
+.vercel/
+.railway/
+
+# =========================
+# Database / local files
+# =========================
+*.sqlite3
+*.db
+
+# =========================
+# Coverage / Tests
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Frontend env (Vite)
+# =========================
+frontend_tsm/.env
+frontend_tsm/.env.*
+backend_tsm/.env
+backend_tsm/.env.*
