@@ -5,7 +5,7 @@ const isLocal = hostname.includes("localhost") || hostname.includes("127.");
 
 const PM_API_BASE =
   import.meta.env.VITE_PM_API_BASE ||
-  (isLocal ? "http://localhost:5000/api" : "https://YOUR_PM_BACKEND.up.railway.app/api");
+  (isLocal ? "http://localhost:5000/api" : "https://pmgui-production.up.railway.app/api");
 
 function authPayload() {
   const a = window.__AUTH__ || {};
