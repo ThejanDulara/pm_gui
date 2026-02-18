@@ -47,7 +47,7 @@ export default function StartPage() {
             </div>
           </div>
 
-          <h1 style={companyName}>MTM Group</h1>
+          <h1 style={companyName}>Media Factory (PVT) LTD</h1>
           <p style={tagline}>Where Intelligence Shapes Smarter Media Planning.</p>
 
             <button onClick={() => nav("/projects")} style={primaryButton}>
