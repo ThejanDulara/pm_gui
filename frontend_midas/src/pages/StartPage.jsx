@@ -20,7 +20,7 @@ export default function StartPage() {
           />
           <h1 style={leftTitle}>Media Intelligence Platform</h1>
           <p style={leftText}>
-            Where Courage Meets Clarity, The Lions of Media Leadership Powering Data-Driven Business Growth.
+            Where Power Meets Precision,The Dragons of Media Leadership Powering Data-Driven Business Growth.
           </p>
         </div>
       </div>

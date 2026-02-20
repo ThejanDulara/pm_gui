@@ -33,8 +33,8 @@ export async function checkAuth() {
   // 🌐 PRODUCTION AUTH (REAL)
   // ===============================
 
-  const apiBase = "https://mtmbackend-production.up.railway.app/api";
-  const portalBase = "https://www.mtmgroup.agency";
+  const apiBase = "https://midasrndfrontendbackend-production.up.railway.app/api";
+  const portalBase = "https://www.midasmedialk.agency";
 
   try {
     const res = await fetch(`${apiBase}/auth/me`, {
